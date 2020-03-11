@@ -1,0 +1,131 @@
+/* @media screen and (max-width:400px){ }*/
+/*
+ #bg{
+  }
+  #workimg{
+      display: none;
+  }
+  #connectlogo{
+      display: none;
+  }
+  #desklogodiv{
+     display: none;
+  }
+   img#logo{
+    margin-left: 22%;
+    background-color: white;
+    } 
+#mobilelogodiv{
+      height: 150px;
+      width: 100px;
+      background-image: url(./images/mobile\ logo.png);
+      height: 150px;
+      margin-left: 5%;
+  }
+  #pagecont{
+  position: relative;
+  top : -2%;
+  margin: 0px;
+  }
+  #container  {
+      height: 100% !important;
+      width: 100% !important;
+      margin-left: 0% !important;
+      background-color: white;
+  }
+  #login-btn{
+      margin-left: 96px !important;
+  }
+  #frgtpswrd {
+       margin: 35% 0% 35% 60%; 
+      position: relative;
+      left: 52% !important;
+      color: black;
+  }
+.container.span.text{
+  font-family: cursive;
+  color: rgb(0, 0, 0);
+  font-size: 15px !important;
+  font-weight: bolder;
+}
+span#logintxt{
+  display: block;
+  position: absolute;
+  margin: 3% 0% 0% 10%; ;
+  font-size: 15px;
+  font-weight: bolder;
+  color: black;
+}*/
+
+
+ #bg{
+    display: none;
+}
+#workimg{
+    display:none;
+}
+#connectlogo{
+    display: none;
+}
+
+#container{
+    height: 100vh !important;
+    width: 100vw !important;
+    background-color: rgb(131, 198, 243) !important;
+    margin-top: -12% !important;
+    margin-left: 0% !important;
+    border-radius: 0 !important;
+} 
+#logo{
+    margin-top:20% !important;
+}
+.container.span.text{
+    color: rgb(0, 0, 0) !important;
+}
+#remember{
+    color: black !important;
+}
+#username{
+    font-weight: 700 !important;
+}
+#password{
+    top:31% !important;
+    font-weight:700; 
+}
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+#pagecont{
+    position:absolute !important;
+    top:45px !important;
+    margin : 0px !important;
+}
+div#logintxt.container.span.text.loginclass{
+    margin: -15% 15% 4% 3% !important;
+    font-size: 3vw !important;
+}
+.loginclass{
+    margin: 21% 65% 35% 13% !important;
+}
+button#login-btn.btn.btn-primary{
+    margin-left: 27% !important;
+    padding: 5px 35px 5px 30px !important;
+}
+
+@media screen and (max-width: 320px){
+div#login.loginclass {
+    margin: 21% 65% 35% 3% !important;
+}
+img#logo{
+    margin-left: 13% !important;
+}
+#container{
+    margin-top: -14% !important;
+    margin-left: 0% !important;
+}
+}
+
+@media screen and(max-width: 375px){
+    #container{
+        margin-left: 0% !important;
+    }
+}
