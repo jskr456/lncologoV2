@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Login</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="./login.css">
-      </head>
-      <body>
-                    
-          <div class="left-class">
-            <div> 
-            <img id="connect-logo" src="Connect Logo White.png">
-        </div>
-            <div>  
-            <img  id="left-image" src="Work Environment.png">
-           </div>
-        </div>
-          <div class="login container">
-              <img id="logo-lnco" src="./LnCo Logo.png">
-            <form action="/login" class="form-class" method="post">
-                <div class="formField">
-                    <input type="text" name="username" placeholder="Email Address" class="user" value=""
-                        required>
-                    <label class="input_label mild-blue">Email Address</label>
-                    <p> <span>Username is required</span> </p>
-                </div>
-                <div class="formField">
-                    <input type="password" placeholder="Password" name="password" class="password" required>
-                    <label class="input_label mild-blue">Password</label>
-                    <p> <span>Password is required</span></p>
-                </div>
-                <button type="submit" class="button-primary"> Login </button>
-            </form>
-        </div>
-      </body>
+
+<head>
+    <title>Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./login.css">
+</head>
+
+<body>
+    <div>
+        <img id="bg" src="BG.jpg">
+    </div>
+    <div class="left container">
+        
+            <div>
+                <img id="connect-logo" src="Connect Logo White.png">
+            </div>
+            <div>
+                <img id="left-image" src="Work Environment.png">
+            </div>
+        
+    </div>
+    <div class="login container">
+        <img id="logo-lnco" src="./LnCo Logo.png">
+        <form action="/login" class="form-class" method="post">
+            <div class="formField">
+                <input type="text" name="username" placeholder="Email Address" class="user" value="" required>
+                <label class="input_label mild-blue" id="email">Email Address</label>
+                <p style="display: none"> <span>Username is required</span> </p>
+            </div>
+            <div class="formField">
+                <input type="password" placeholder="Password" name="password" class="password" required>
+                <label class="input_label mild-blue">Password</label>
+                <p style="display: none"> <span>Password is required</span></p>
+            </div>
+            <button type="submit" class="button-primary"> Login </button>
+        </form>
+    </div>
+</body>
+
 </html>
 <!-- this is to test git-->
 <!-- its working-->
