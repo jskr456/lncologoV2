@@ -28,18 +28,24 @@
     </div>
     <div class="login container">
         <img id="logo-lnco" src="./LnCo Logo.png">
+        <p><span class="text-class" id="login-text">please login your account to connect</span></p>
         <form action="/login" class="form-class" method="post">
             <div class="formField">
                 <input type="text" name="username" placeholder="Email Address" class="user" value="" required>
                 <label class="input_label mild-blue" id="email">Email Address</label>
-                <p style="display: none"> <span>Username is required</span> </p>
+              <div>  <p style="display: none"> <span>Username is required</span> </p></div>
             </div>
             <div class="formField">
                 <input type="password" placeholder="Password" name="password" class="password" required>
                 <label class="input_label mild-blue">Password</label>
-                <p style="display: none"> <span>Password is required</span></p>
+                <div><p style="display: none"> <span>Password is required</span></p></div>
             </div>
-            <button type="submit" class="button-primary"> Login </button>
+            <div>            <a href="#"> <span class="text-class"> forgot password</span></a>
+            </div>
+            <div>
+                <input type="checkbox" id="remember me"><span class="text-class">Remember me</span>
+            </div>
+                <button type="submit" class="btn btn-primary"> Login </button>
         </form>
     </div>
 </body>

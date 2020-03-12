@@ -27,19 +27,74 @@ input.user{
 	font-size: 30px;
 	border-radius: 10px;
 	padding: 10px;
+	padding-right: 15%;
+	border-color:rgb(0, 183, 255);
 }
 input.password{
         font-size: 30px;
         border-radius: 10px;
         padding: 10px;
-    
+		padding-right: 15%;
+		margin-top: -5%;
+		border-color: rgb(0, 183, 255);
+
 }
 #email{
-    
+		color: rgb(0, 183, 255);
         position: absolute;
         left: 14%;
         top: 40%;
     
+}
+html body div.login.container form.form-class div.formField label.input_label.mild-blue {
+	position: absolute;
+	color : rgb(0, 183, 255);
+
+left: 14%;
+
+top: 55%;
+}
+#login-text{
+	color : rgb(0, 183, 255);
+	
+		/* margin: 151% 6% 5% 15%; */
+		/* margin-top: -29%; */
+		position: absolute;
+		/* top: 30%; */
+		margin-top: 5% 0% 0% 30%;
+		margin-top: 6%;
+		margin-left: 76px;
+	
+}
+.btn.btn-primary{
+	color: #000;
+    position: relative;
+    left: 15px;
+    margin-top: 3%;
+    margin: 1%;
+    font-size: 15px;
+    background-color:rgb(248, 248, 248);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: rgb(3, 93, 129);
+    padding:5px 20px 5px 20px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn.btn-primary:hover{
+	background-color:#2483C5;
+	color: #fcfcfc;
+}
+html body div.login.container form.form-class button.btn.btn-primary{
+	    padding: 1% 10% 1% 10%;
+    margin-left: 30%;
+}
+.text-class{
+	color : rgb(73, 140, 167);
+	font-weight: 700;
+}
+.form-class > div:nth-child(4){
+	margin-top: 5%;
 }
 #connect-logo {
 	margin-top: 0%;
@@ -54,17 +109,19 @@ input.password{
 	width: 650px;
 	/* margin-right: 0%; */
 }
-.login.container {
-	height: 650px;
-	width: 650px;
-	background-color: aliceblue;
-	position: absolute;
-	/* margin-left: 63%; */
-	/* margin-top: 3%; */
-	border-radius: 5%;
-	box-shadow: black;
-	margin: 5% 0% 0% 60%;
-}
+	.login.container {
+		height: 650px;
+		width: 650px;
+		background-color: aliceblue;
+		position: absolute;
+		/* margin-left: 63%; */
+		/* margin-top: 3%; */
+		border-radius: 5%;
+		box-shadow: black;
+		margin: 5% 0% 0% 60%;
+		box-shadow: 7px 7px 30px #091215;
+	}
+
 #logo-lnco{
     position: relative;
     margin-left: 21%;
@@ -74,4 +131,101 @@ input.password{
 .formField{
 margin-top:55px;
 }
-    
+body > div.login.container > form > div:nth-child(3) > a > span{
+	margin-left:55%;
+} 
+
+@media screen and (max-width:1366px){
+	.login.container {
+		height: 550px;
+		width: 550px;
+		background-color: aliceblue;
+		position: absolute;
+		/* margin-left: 63%; */
+		/* margin-top: 3%; */
+		border-radius: 5%;
+		box-shadow: 7px 7px 30px #091215;
+		margin: 3% 0% 0% 55%;
+	}
+	.left.container {
+		margin-top: 3%;
+		margin-left: 0%;
+		height: 550px;
+		width: 550px;
+		position: absolute;
+		/* margin-right: 0; */
+	}
+	#connect-logo {
+		margin-top: 0%;
+		height: 115px;
+		width: 400px;
+		margin-left: 5%;
+	}
+	#left-image {
+		position: absolute;
+		margin: 5% 5% 15% 0%;
+		height: 416px;
+		width: 600px;
+		/* margin-right: 0%; */
+	}
+	#email {
+		color: rgb(0, 183, 255);
+		position: absolute;
+		left: 53px;
+		top: 39%;
+	}
+	html body div.login.container form.form-class div.formField label.input_label.mild-blue {
+		position: absolute;
+		color: rgb(0, 183, 255);
+		left: 53px;
+		top: 286px;
+	}
+	body > div.login.container > form > div:nth-child(3) > a > span {
+		margin-left: 72%;
+	}
+	.form-class {
+		margin: 3% auto auto 5%;
+	}
+	#logo-lnco {
+		position: relative;
+		margin-left: 5%;
+		height: 135px;
+		width: 250px;
+	}
+	#login-text {
+		color: rgb(0, 183, 255);
+		/* margin: 151% 6% 5% 15%; */
+		/* margin-top: -29%; */
+		position: relative;
+		top: 100%;
+		margin-top: 5% 0% 0% 30%;
+		margin-top: -12%;
+		margin-left: 5%;
+	}
+	input.user {
+		font-size: 15px;
+		border-radius: 10px;
+		padding: 25px 250px 10px 25px;
+		/* padding-right: 40%; */
+		border-color: rgb(0, 183, 255);
+		border-style: solid;
+	}
+	input.password {
+		font-size: 15px;
+		border-radius: 10px;
+		padding: 25px 250px 10px 25px;
+		/* margin-top: -11%; */
+		border-color: rgb(0, 183, 255);
+		position: absolute;
+		margin-top: -8%;
+		border-style: solid;
+	}
+	body > div.login.container > form > div:nth-child(3) > a > span {
+		margin-left: 64%;
+		position: relative;
+		top: 65%;
+	}
+	.form-class > div:nth-child(4) {
+		margin-top: 4%;
+	}
+}
