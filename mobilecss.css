@@ -94,10 +94,7 @@ body > div.login.container > p {
 }
 
 body > div.login.container > form > div:nth-child(3) > a > span {
-    top: 50%;
-    top: 57%;
-    left: -8%;
-    position: -webkit-sticky;
+   display: none;
   }
 .left.container {
     margin-top: 3%;
@@ -111,5 +108,10 @@ body > div.login.container > form > div:nth-child(3) > a > span {
     margin: -5px auto auto 15px;
 }
 .form-class > div:nth-child(4) {
-    margin-top: 40%;
+    margin-top: 30%;
+}
+html body div.login.container form.form-class button.btn.btn-primary {
+    padding: 1% 10% 1% 10%;
+    margin-left: 25%;
+    margin-top: 6%;
 }
