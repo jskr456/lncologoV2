@@ -180,10 +180,7 @@ body > div.login.container > form > div:nth-child(3) > a > span{
 		left: 53px;
 		top: 286px;
 	}
-	body > div.login.container > form > div:nth-child(3) > a > span {
-		margin-left: 72%;
-	}
-	.form-class {
+		.form-class {
 		margin: 3% auto auto 5%;
 	}
 	#logo-lnco {
@@ -197,9 +194,6 @@ body > div.login.container > form > div:nth-child(3) > a > span{
 		/* margin: 151% 6% 5% 15%; */
 		/* margin-top: -29%; */
 		position: relative;
-		top: 100%;
-		margin-top: 5% 0% 0% 30%;
-		margin-top: -12%;
 		margin-left: 5%;
 	}
 	input.user {
@@ -221,11 +215,11 @@ body > div.login.container > form > div:nth-child(3) > a > span{
 		border-style: solid;
 	}
 	body > div.login.container > form > div:nth-child(3) > a > span {
-		margin-left: 64%;
-		position: relative;
+		margin-left: 58%;
+		position: absolute;
 		top: 65%;
 	}
 	.form-class > div:nth-child(4) {
-		margin-top: 4%;
+		margin-top: 20%;
 	}
 }
