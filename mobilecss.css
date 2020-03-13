@@ -97,6 +97,7 @@ body > div.login.container > form > div:nth-child(3) > a > span {
     top: 50%;
     top: 57%;
     left: -8%;
+    position: absolute;
   }
 .left.container {
     margin-top: 3%;
