@@ -23,38 +23,7 @@ body {
 .form-class{
 	margin: 20% auto auto 10%;
 }
-input.user{
-	font-size: 30px;
-	border-radius: 10px;
-	padding: 10px;
-	padding-right: 15%;
-	border-color:rgb(0, 183, 255);
-	border-width: thin;
-}
-input.password{
-        font-size: 30px;
-        border-radius: 10px;
-        padding: 10px;
-		padding-right: 15%;
-		margin-top: -5%;
-		border-color: rgb(0, 183, 255);
-		border-width: thin;
-}
-#email{
-		color: rgb(0, 183, 255);
-        position: absolute;
-        left: 14%;
-        top: 40%;
-    
-}
-html body div.login.container form.form-class div.formField label.input_label.mild-blue {
-	position: absolute;
-	color : rgb(0, 183, 255);
 
-left: 14%;
-
-top: 55%;
-}
 #login-text{
 	color : rgb(0, 183, 255);
 	
@@ -63,8 +32,8 @@ top: 55%;
 		position: absolute;
 		/* top: 30%; */
 		margin-top: 5% 0% 0% 30%;
-		margin-top: 6%;
-		margin-left: 76px;
+		margin-top: 10%;
+		margin-left: 102px;
 	
 }
 .btn.btn-primary{
@@ -122,18 +91,58 @@ html body div.login.container form.form-class button.btn.btn-primary{
 		margin: 5% 0% 0% 60%;
 		box-shadow: 7px 7px 30px #091215;
 	}
+	#logo-lnco{
+		position: relative;
+		top:5%;
+		margin-left: 17%;
+		height: 135px;
+		width: 250px;
+	}
+	input.user{
+		font-size: 30px;
+		border-radius: 10px;
+		padding: 10px;
+		padding-right: 70px;
+		padding-left: 36px;
+		border-color:rgb(0, 183, 255);
+		border-width: thin;
+		font-weight: bold ;
+		color: rgb(73, 140, 167);
+	}
+	input.password{
+			font-size: 30px;
+			border-radius: 10px;
+			padding: 10px;
+			padding-right: 70px;
+			padding-left: 36px;
+			margin-top: -6%;
+			border-color: rgb(0, 183, 255);
+			border-width: thin;
+			font-weight: bold;
+			color: rgb(73, 140, 167);
+	}
+	#email{
+			color: rgb(0, 183, 255);
+			position: absolute;
+			left: 117px;
+			top: 354px;
+			font-weight: 800;
+			font-size: 15px;
 
-#logo-lnco{
-    position: relative;
-    margin-left: 21%;
-    height: 135px;
-    width: 250px;
-}
+	}
+	html body div.login.container form.form-class div.formField label.input_label.mild-blue {
+		position: absolute;
+		color : rgb(0, 183, 255);
+		left: 117px;
+		top: 344px;
+		font-weight: 800;
+		font-size: 15px;
+	}
 .formField{
 margin-top:55px;
 }
 body > div.login.container > form > div:nth-child(3) > a > span{
-	margin-left:55%;
+	margin-left:67%;
 } 
 input:focus, textarea:focus, select:focus{
     outline: none;
