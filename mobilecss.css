@@ -11,7 +11,7 @@
     height: 100vh !important;
     width: 100vw !important;
     background-color: transparent !important;
-    margin-top: -12% !important;
+    margin-top: 0% !important;
     margin-left: 0% !important;
     border-radius: 0 !important;
 } 
@@ -50,7 +50,7 @@ input.user {
 #email {
     color: rgb(0, 183, 255);
     position: absolute;
-    left: 70px;
+    left: 91px;
     top: 300px;
     font-size: 10px;
     font-weight: 800;
@@ -70,7 +70,7 @@ input.password {
 html body div.login.container form.form-class div.formField label.input_label.mild-blue {
     position: absolute;
     color: rgb(0, 183, 255);
-    left: 72px;
+    left: 91px;
     top: 371px;
     font-size: 10px;
     font-weight: 800;
@@ -105,7 +105,7 @@ body > div.login.container > form > div:nth-child(3) > a > span {
     /* margin-right: 0; */
 }
 .form-class {
-    margin: -5px auto auto 15px;
+    margin: -5px auto auto 35px;
 }
 .form-class > div:nth-child(4) {
     margin-top: 30%;
