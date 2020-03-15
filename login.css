@@ -125,7 +125,7 @@ html body div.login.container form.form-class button.btn.btn-primary{
 			color: rgb(0, 183, 255);
 			position: absolute;
 			left: 117px;
-			top: 354px;
+			top: 260px;
 			font-weight: 800;
 			font-size: 15px;
 
@@ -134,7 +134,7 @@ html body div.login.container form.form-class button.btn.btn-primary{
 		position: absolute;
 		color : rgb(0, 183, 255);
 		left: 117px;
-		top: 344px;
+		top: 355px;
 		font-weight: 800;
 		font-size: 15px;
 	}
