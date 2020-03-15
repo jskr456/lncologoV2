@@ -35,7 +35,7 @@
     top:31% !important;
     font-weight:700; 
 }
-html, body {margin: 0; height: 100%; overflow: hidden}
+html, body {margin: 0;height: 100%;overflow: auto;}
 
 input.user {
     font-size: 15px;
